@@ -97,11 +97,10 @@ opacity: 0;
   font-size: 0.75rem;
 }
 
-@media (max-width: 600px) {
-  .main-content {
-    margin-left: 0;
-  }
-}
+
+
+
+
 
 /* //////////////////////// */
 
@@ -163,3 +162,33 @@ opacity: 0;
 
 
 /* /////Socila Links/////////////////// */
+
+
+
+@media (max-width: 900px) {
+  .main-content {
+    margin-left: 0;
+  }
+  .texting1{
+    font-size:4.5rem;
+  }
+  
+}
+@media (max-width: 600px) {
+  .main-content {
+    margin-left: 0;
+  }
+  .texting2{
+    font-size:larger;
+  }
+  .texting1{
+    font-size:2.5rem;
+  }
+  .page3 img {
+    object-fit: fill;
+    height: 100px;
+    width: 100px;
+  }
+
+  
+}
