@@ -20,7 +20,21 @@ header img{
   width: 50vw;
 }
 /* /////////////////////////////////// */
-
+.main-heading{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+}
+.about-heading{
+  font-family:'Sansita';
+  color: #FF5F00;
+}
+.about-detail{
+  color: #028391;
+  font-size: 3.5vh;
+}
+.main-image:hover{
+  box-shadow: #E90074 0px 7px 29px 0px;;
+}
 
  /* ////////////////////////////Loader////////////// */
 
