@@ -36,7 +36,7 @@ var swiper = new Swiper(".mySwiper", {
         disableOnInteraction:false,
         
     },speed: 1000, // Smooth scrolling speed
-    effect: 'cube', // Can also use 'fade', 'cube', 'coverflow', 'flip','slide
+    effect: 'cube', 
   });
 
   var swiper = new Swiper(".mySwiper2", {
@@ -52,7 +52,7 @@ var swiper = new Swiper(".mySwiper", {
         disableOnInteraction:false,
         
     },speed: 1000, // Smooth scrolling speed
-    effect: 'slide', // Can also use 'fade', 'cube', 'coverflow', 'flip','slide
+    effect: 'coverflow', 
   });
 
 
@@ -64,7 +64,7 @@ var swiper = new Swiper(".mySwiper", {
 
 
 
-  ///////////////Downloading Resume///
+  /////////Downloading Resume///
   document.getElementById('downloadBtn').addEventListener('click', () => {
   fetch('https://raw.githubusercontent.com/vikasprajapati1812/Resume/main/MyResume.pdf')
   .then(response => response.blob())
@@ -80,4 +80,4 @@ var swiper = new Swiper(".mySwiper", {
   })
   .catch(error => console.error('Error fetching the resume:', error));
 });
-  ///////////////Downloading Resume///
+  /////////Downloading Resume///
